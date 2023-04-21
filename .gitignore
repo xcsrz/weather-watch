@@ -1,2 +1,3 @@
 images/*.webp
 node_modules
+.DS_Store
