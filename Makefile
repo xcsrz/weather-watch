@@ -14,5 +14,5 @@ run:
 daily: run
 	LATEST=$$(ls -t animations/*.webp | head -n 1); \
 	sed -i '' "s~^\!\[Latest.*$$~![Latest US Weather Animation]\(`ls -t animations/*.webp | head -n 1`\)~" README.md
-	sed -i '' "s~^### Updated: .*$$~### Updated: `date`~" README.md
+	sed -i '' "s~^### Image Updated: .*$$~### Image Updated: `date`~" README.md
 	git add animations README.md && git commit -m "daily update `date`" && git push

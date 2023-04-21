@@ -59,7 +59,7 @@ function zeropad(num:number, size:number = 2): string {
     await browser.close();
     
     console.log("building animation");
-    exec(`convert -delay 10 -loop 0 ${files.reverse().join(' ')} -resize 50% animations/${datestr}.webp`, (error, stdout, stderr) => {
+    exec(`convert -delay 10 -loop 0 ${files.reverse().join(' ')} -resize 44% animations/${datestr}.webp`, (error, stdout, stderr) => {
         if (error) {
             console.log(`error building animation: ${error.message}`);
             return;
