@@ -2,9 +2,9 @@
 
 A simple utility to create animated images of weather by capturing images from zoom.earth
 
-### Image Updated: Wed Nov 15 05:10:44 PST 2023
+### Image Updated: Thu Nov 16 05:10:46 PST 2023
 
-![Latest US Weather Animation](animations/2023-11-15.webp)
+![Latest US Weather Animation](animations/2023-11-16.webp)
 
 ## Dependencies
 ### System Dependendencies
